@@ -29,4 +29,4 @@ function isEqual (val1, val2) {
   return val1 === val2
 }
 
-export { isEmpty, isZero, charsBetween, isEmail, isTelephone, isEqual }
+module.exports = { isEmpty, isZero, charsBetween, isEmail, isTelephone, isEqual }

@@ -1,5 +1,5 @@
 const assert = require('chai').assert
-const Validate = require('../src/js/Validate')
+const Validate = require('../src/index')
 
 describe('isEmpty', () => {
   it('Value is empty', () => {
