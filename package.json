@@ -1,0 +1,28 @@
+{
+  "name": "validate",
+  "version": "1.0.0",
+  "description": "basic validation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register || true",
+    "watch": "webpack-dev-server && webpack --config webpack.config.dev.js --watch=true",
+    "build": "webpack --config webpack.config.dev.js",
+    "prod": "webpack --config webpack.config.prod.js"
+  },
+  "babel": {
+    "presets": ["env"]
+  },
+  "author": "Nathan Green",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
