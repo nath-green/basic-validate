@@ -1,11 +1,14 @@
-## Validation library
+## Basic validation library
 
-### Usage
+### Installation and usage
+
+```npm install basic-validate```
+
 Import full library with direct access to all functions with imported name:
-`import * as Validate from './Validate'` used as `Validation.isZero(10)`
+`import * as Validate from 'basic-validate'` used as `Validation.isZero(10)`
 
 Imported single functions individually
-`import { isZero } from './Validate'` used as `isZero(10)`
+`import { isZero } from 'basic-validate'` used as `isZero(10)`
 
 ### Functions
 
