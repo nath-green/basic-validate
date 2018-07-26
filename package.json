@@ -4,7 +4,7 @@
   "description": "basic validation library",
   "main": "./src/index.js",
   "scripts": {
-    "test": "mocha --require babel-core/register || true",
+    "test": "mocha --require babel-core/register || true"
   },
   "author": "Nathan Green <hello@nathgreen.co.uk>",
   "license": "MIT",
