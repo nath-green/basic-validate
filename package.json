@@ -1,6 +1,6 @@
 {
   "name": "basic-validate",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "basic validation library",
   "main": "lib/index.js",
   "scripts": {
