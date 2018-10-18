@@ -2,8 +2,10 @@
   "name": "basic-validate",
   "version": "0.2.0",
   "description": "basic validation library",
-  "main": "./src/index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "compile": "babel --presets es2015 -d lib/ src/",
+    "prepublish": "npm run compile",
     "test": "mocha --require babel-core/register || true"
   },
   "author": "Nathan Green <hello@nathgreen.co.uk>",
@@ -18,6 +20,8 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
